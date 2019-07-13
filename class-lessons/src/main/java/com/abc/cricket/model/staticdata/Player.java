@@ -27,6 +27,9 @@ public class Player {
 	@Column(name="ID")
 	private int id;
 	
+	@Column(name="TEAM_ID")
+	private int teamId;
+	
 	@Column(name="FIRST_NAME")
 	private String firstName;
 	
